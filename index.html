@@ -1,13 +1,18 @@
+<!DOCTYPE html>
 <html>
     <head>
+    <meta charset="UFT-8">
+    <!-- make it mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/framework.css">
     
-
     </head>
     <body>
-        <div class="container">
+        <div class="page">
            
+            <!-- Top Links -->
             <div class="top-links">
                 <div class="top-left">
                     <a href="#">Left</a>
@@ -19,31 +24,45 @@
                     <a href="#">Right</a>
                 </div>    
             </div>
+            <!-- / Top Links -->
+
+
+
             
-            <!--
-            <div class="center-div"></div>           
-            -->
+            <!-- Centered Div -->
+                <div class="center"></div> 
+            <!-- / Centered Div -->         
+         
+            <!-- Centered Image --> 
+                <img  class="center-image" src="img/image.jpg" /> 
+            <!-- / Centered Image -->  
 
-            <img  class="center-image" src="img/image.jpg" />
+            <!-- Centered Vimeo video embed -->
             
-            <!-- 
-            <div class="center">
-                <img src="img/image.jpg" />
-            </div>
-            -->
+                <section class="container">
+                    <div class="video-wrapper centered">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/947845706?h=336cbad19e" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                    </div>
+                </section>
+            
+            <!-- / Centered Vimeo video embed --> 
 
-            <!-- 
-            <div class="bottom-left">
-                <a href="#">Text</a>
-            </div>
-            <div class="bottom-center">
-                <a href="#">Text</a>
-            </div>
-            <div class="bottom-right">
-                <a href="#">Text</a>
-            </div>  
-            -->
 
+
+
+            <!-- Bottom Links -->             
+            <div class="bottom-links">
+                <div class="bottom-left">
+                    <a href="#">Left</a>
+                </div>
+                <div class="bottom-center">
+                    <a href="#">Center</a>
+                </div>
+                <div class="bottom-right">
+                    <a href="#">Right</a>
+                </div>  
+            </div>
+            <!-- / Bottom Links -->   
 
         </div>
     </body>

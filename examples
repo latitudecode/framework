@@ -1,0 +1,112 @@
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+1. Wrapper vs. Container:
+
+In programming languages the word container is generally used 
+for structures that can contain more than one element.
+
+A wrapper instead is something that wraps around a single 
+object to provide more functionalities and interfaces to it.
+
+<ul class="items-container">
+    <li class="item-wrapper">
+        <div class="item">...</div>
+    </li>
+    <li class="item-wrapper">
+        <div class="item">...</div>
+    </li>
+    <li class="item-wrapper">
+        <div class="item">...</div>
+    </li>
+    <li class="item-wrapper">
+        <div class="item">...</div>
+    </li>
+    <li class="item-wrapper">
+        <div class="item">...</div>
+    </li>
+</ul>
+
+
+OR
+
+<section class="container">
+    <div class="wrapper">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </section>
+
+
+Info here: https://stackoverflow.com/questions/4059163/css-language-speak-container-vs-wrapper
+
+
+<div class="container">
+    <div class="wrapper">
+        Content goes here
+    </div>
+    
+</div>
+
+
+Sam's Thoughts
+
+
+Standard content width = container 
+Outer wrapper of entire website page that usually is set to a 'position' = wrapper 
+
+
+Some Good Links
+
+How to structure your HTML
+https://www.youtube.com/watch?v=pAl7TrV7gpg
+
+How Sections & Containers Work
+https://www.youtube.com/watch?v=s5zmRePNN0A
+
+
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+Thoughts
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+Global.css = Container padding, what else? buttons? colors? fonts? font sizes?
+
+
+
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+NOTES
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+Good to use min height in containers for padding –– instead of padding
+Use max and min elements instead of using padding or even margins –– padding/margin can create dead space
+Usining min height for container allows you to use alignment tool
+
+Use flexbox
+Use min and max as much as possible
+
+
+Dont put margins or negataives on your containers
+
+Think about using 'Blocks' to flow inline content elements side by side, up down etc 
+
+Don't use pixels –– as much as possible
+
+
+
+
+
+
+
+
