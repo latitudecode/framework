@@ -1,1 +1,67 @@
-test
+
+/* Overall */
+
+body {
+    min-height: 100vh;
+    background-color: #fffaf3;
+    /* border: solid 20px #eeeeee; */
+
+}
+
+
+
+
+
+/* POSITIONING */
+
+.top-left,
+.top-center,
+.top-right,
+.bottom-left,
+.bottom-center,
+.bottom-right {
+
+    position: absolute;
+
+}
+
+.top-left {
+    left: 20px;
+    top: 20px;
+}
+
+.top-center {
+    top: 20px;
+    left: 20px;
+}
+
+.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+
+/* Centering */
+
+.center {
+    width: 60%;
+    max-width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+   
+}
+
+.center-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
