@@ -91,7 +91,8 @@ NOTES
 
 Good to use min height in containers for padding –– instead of padding
 Use max and min elements instead of using padding or even margins –– padding/margin can create dead space
-Usining min height for container allows you to use alignment tool
+Usining min height for container allows you to use alignment tools
+
 
 Use flexbox
 Use min and max as much as possible
